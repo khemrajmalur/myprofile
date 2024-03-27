@@ -6,8 +6,8 @@
 }
 
 #typing-demo {
-  width: 22ch;
-  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  width: 58ch;
+  animation: typing 4s steps(22), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
@@ -25,4 +25,13 @@
   50% {
     border-color: transparent
   }
+}
+
+.profile-btn{
+  background: #1acc8d;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
 }
