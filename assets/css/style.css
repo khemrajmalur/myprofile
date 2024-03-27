@@ -414,7 +414,6 @@ h6 {
   width: 100%;
   background: url("../img/hero-bg.jpg");
   position: relative;
-  padding: 470px 0 0 0;
 }
 
 #hero:before {
@@ -576,7 +575,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  /* padding: 60px 0; */
   overflow: hidden;
 }
 
