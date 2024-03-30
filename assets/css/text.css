@@ -1,28 +1,46 @@
-#wrapper {
-  height: 100vh;
-  /*This part is important for centering*/
-  display: grid;
-  place-items: center;
-}
-
-#typing-demo {
-  width: 22ch;
-  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 3px solid;
-  font-family: monospace;
-  font-size: 2em;
-}
-
-@keyframes typing {
-  from {
-    width: 0
+  #wrapper {
+    height: 85vh;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
   }
-}
-    
-@keyframes blink {
-  50% {
-    border-color: transparent
+
+  #typing-demo {
+    width: 58ch;
+    animation: typing 4s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
   }
-}
+
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+  .profile-btn{
+    background:#ffa67e ;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+  .about-section {
+    box-shadow: 41px -41px 0px -14px #5a0f2e;
+    border-radius: 54px 20px 20px 0px;
+    transition: 2s;
+  }
+  .about-section:hover {
+    transform: translateY(-8px);
+    transition: 2s;
+  }
