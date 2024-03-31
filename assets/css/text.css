@@ -50,3 +50,17 @@
     box-shadow: 1px 1px 7px 1px rgb(196, 193, 193);
     margin: 9px;
   }
+  a{
+    text-decoration: none;
+      
+  }
+  section#contact i{
+    color: #fff;
+    background-color: #ffa67e;
+  }
+
+  .col-lg-4 .info p , .col-lg-4 .info p a{
+    color:#ffa67e;
+  }
+  /* Navbar color */
+

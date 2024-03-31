@@ -14,11 +14,6 @@ body {
   color: #444444;
 }
 
-a {
-  color: #ffa67e;
-  text-decoration: none;
-}
-
 a:hover {
   color: #34e5a6;
   text-decoration: none;
@@ -1463,7 +1458,8 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #ffa67e;
+ 
+  background: #5a1c22;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1472,7 +1468,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #34e5a6;
+  background: #ffa67e;
 }
 
 @keyframes animate-loading {
