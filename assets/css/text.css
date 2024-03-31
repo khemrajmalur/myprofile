@@ -64,3 +64,12 @@
   }
   /* Navbar color */
 
+
+  @media only screen and (min-width: 320px) and (max-width: 786px) {
+    div#wrapper {
+      height: 40vh;
+    }
+    .about-section {
+      width: 91%;
+   }
+  }
