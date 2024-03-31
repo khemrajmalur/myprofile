@@ -44,3 +44,9 @@
     transform: translateY(-8px);
     transition: 2s;
   }
+  .gallery-item {
+    /* border: 2px solid; */
+    height: 400px;
+    box-shadow: 1px 1px 7px 1px rgb(196, 193, 193);
+    margin: 9px;
+  }
